@@ -42,16 +42,39 @@ NextJS_Assessment is open to contributions. We recommend creating an issue or re
 
 # Contribution Guidelines
 
-Commit Cheat Sheet
-Type Description
-feat Features: A new feature
-fix Bug Fixes: A bug fix
-docs Documentation: Documentation only changes
-style Styles: Changes that do not affect the code's meaning
-refactor Code Refactoring: A code change that neither fixes a bug nor adds a feature
-perf Performance Improvements: A code change that improves performance
-test Tests: Adding missing tests or correcting existing tests
-build Builds: Changes that affect the build system or external dependencies
-ci Continuous Integrations: Changes to CI configuration files and scripts
-chore Chores: Other changes that don't modify frontend or test files
-revert Reverts: Reverts a previous commit
+1. Clone the repo:
+
+git clone https://github.com/Mhiracul/NextJS_Assessment-Frontend.git
+
+2. Open your terminal & set the origin branch:
+
+git remote add origin https://github.com/Mhiracul/NextJS_Assessment-Frontend.git
+
+3. Pull the dev branch:
+
+git pull origin dev
+
+4. Create a new branch for the task you were assigned to, e.g.:
+
+git checkout -b feat-csv-parser
+
+5. After making changes, stage them:
+
+git add .
+
+6. Commit your changes with a descriptive commit message:
+
+git commit -m "commit message"
+
+7. To ensure there are no conflicts, run:
+
+git pull origin dev
+
+8. Push changes to your new branch:
+
+git push -u origin feat-csv-parser
+
+9. Create a pull request to the dev branch (not main).
+
+⚫ Ensure to describe your pull request.
+⚫ If you've added code that should be tested, add some test examples.
